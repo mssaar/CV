@@ -1,0 +1,67 @@
+[67.3, 42.9, 203.0, 178.6]: [IMAGE]
+[70.3, 259.4, 77.0, 272.9]: [IMAGE]
+[93.0, 234.7, 182.8, 247.8]: [Assistant-Regular|10.0|#2e2f52] Viimsi vald, Harjumaa
+[67.5, 349.9, 212.7, 368.2]: [Assistant-SemiBold|14.0|#2e2f52] IT-ALASED OSKUSED
+[283.3, 49.4, 579.4, 86.0]: [Assistant-SemiBold|28.0|#2e2f52] MARK SVERKER SAAR
+[67.5, 552.1, 197.1, 570.4]: [Assistant-SemiBold|14.0|#2e2f52] MUUD VÄÄRTUSED
+[93.0, 285.4, 193.0, 298.4]: [Assistant-Regular|10.0|#2e2f52] sverkersaar@gmail.com
+[84.5, 387.1, 116.8, 400.1]: [Assistant-Regular|10.0|#2e2f52] Python
+[84.5, 400.6, 105.4, 413.6]: [Assistant-Regular|10.0|#2e2f52] Java
+[84.5, 414.1, 102.2, 427.1]: [Assistant-Regular|10.0|#2e2f52] SQL
+[84.5, 427.6, 185.5, 440.7]: [Assistant-Regular|10.0|#2e2f52] R, EViews, Gretl, Stata
+[84.5, 441.1, 149.5, 454.2]: [Assistant-Regular|10.0|#2e2f52] HTML, CSS, JS
+[84.5, 454.6, 108.1, 467.7]: [Assistant-Regular|10.0|#2e2f52] Excel
+[84.5, 468.1, 211.6, 481.2]: [Assistant-Regular|10.0|#2e2f52] Bitbucket, Jira, Confluence 
+[84.5, 481.6, 134.0, 494.7]: [Assistant-Regular|10.0|#2e2f52] Git, Github
+[84.5, 495.1, 102.7, 508.2]: [Assistant-Regular|10.0|#2e2f52] CAD
+[93.0, 259.8, 153.1, 272.9]: [Assistant-Regular|10.0|#2e2f52] +372 52 60 425
+[94.5, 212.3, 137.9, 225.4]: [Assistant-Regular|10.0|#2e2f52] 15.12.2002
+[284.4, 135.2, 512.7, 148.3]: [Assistant-Regular|10.0|#2e2f52] Hetkel omandan õpinguid TalTechis majandusanalüüsi
+[284.4, 151.0, 346.3, 164.1]: [Assistant-Regular|10.0|#2e2f52] magistriõppes.
+[283.3, 109.3, 338.9, 127.6]: [Assistant-SemiBold|14.0|#2e2f52] PROFIIL
+[283.8, 177.2, 346.5, 195.5]: [Assistant-SemiBold|14.0|#2e2f52] HARIDUS
+[303.2, 308.7, 418.1, 321.7]: [Assistant-Regular|10.0|#2e2f52] Informaatika kõrvalerialana
+[286.2, 273.6, 463.9, 289.3]: [Assistant-SemiBold|12.0|#2e2f52] Majandusteadus, BA | Tartu Ülikool
+[286.2, 291.1, 352.5, 304.2]: [Assistant-Regular|10.0|#2e2f52] sept 2022 - 2025
+[283.3, 207.8, 359.3, 223.5]: [Assistant-SemiBold|12.0|#2e2f52] KÕRGHARIDUS
+[286.7, 334.2, 360.2, 349.9]: [Assistant-SemiBold|12.0|#2e2f52] KESKHARIDUS
+[286.2, 347.8, 370.5, 363.5]: [Assistant-SemiBold|12.0|#2e2f52] Tallinna 21. Kool
+[286.7, 365.6, 332.8, 378.7]: [Assistant-Regular|10.0|#2e2f52] 2019 - 2022
+[283.3, 740.8, 452.9, 756.5]: [Assistant-SemiBold|12.0|#2e2f52] Klienditeenindaja | OKO Restoran
+[283.3, 757.5, 345.6, 770.6]: [Assistant-Regular|10.0|#2e2f52] juuli - aug 2022
+[284.4, 615.8, 476.1, 631.5]: [Assistant-SemiBold|12.0|#2e2f52] Eripuhastustööde teostaja | Auruproff
+[284.4, 632.8, 390.7, 645.8]: [Assistant-Regular|10.0|#2e2f52] aug 2021; juuni - aug 2023
+[284.4, 646.3, 530.0, 659.3]: [Assistant-Regular|10.0|#2e2f52] Kuumavee survepesu ning kõikvõimalikud erilahendustööd
+[283.3, 663.8, 436.6, 679.5]: [Assistant-SemiBold|12.0|#2e2f52] Turunduspraktika | Poke Bowl
+[283.3, 680.6, 351.8, 693.7]: [Assistant-Regular|10.0|#2e2f52] märts - mai 2023
+[283.3, 694.1, 569.3, 707.2]: [Assistant-Regular|10.0|#2e2f52] Välisturgudele laienemisel võimaluste kaardistamine ja konkurentide
+[283.3, 707.6, 568.0, 720.7]: [Assistant-Regular|10.0|#2e2f52] analüüs, potentsiaalsete ürituste otsimine, suunamudijatele koostöö
+[283.3, 721.1, 330.0, 734.2]: [Assistant-Regular|10.0|#2e2f52] pakkumine
+[284.4, 553.6, 415.2, 569.3]: [Assistant-SemiBold|12.0|#2e2f52] SEO praktika | SEO Studio
+[284.4, 570.4, 365.6, 583.4]: [Assistant-Regular|10.0|#2e2f52] dets 2022 - jan 2023
+[284.4, 583.9, 535.0, 596.9]: [Assistant-Regular|10.0|#2e2f52] SEO auditite koostamine, kodulehe ja konkurentide analüüs,
+[284.4, 597.4, 500.4, 610.4]: [Assistant-Regular|10.0|#2e2f52] kodulehe optimeerimine ning blogipostituste loome
+[283.3, 777.2, 439.5, 792.9]: [Assistant-SemiBold|12.0|#2e2f52] Elektrialased tööd | ProSystem
+[283.8, 794.0, 470.6, 807.0]: [Assistant-Regular|10.0|#2e2f52] juuni - juuli 2020; juuni - juuli 2021; juuni 2022
+[283.8, 807.4, 554.7, 820.5]: [Assistant-Regular|10.0|#2e2f52] Tänavavalgustuse hooldus ja remonttööde teostamine, valgustite
+[283.8, 820.9, 411.3, 834.0]: [Assistant-Regular|10.0|#2e2f52] vahetamine ja sidetrassi ehitus
+[281.4, 386.3, 381.1, 404.6]: [Assistant-SemiBold|14.0|#2e2f52] TÖÖKOGEMUS
+[69.2, 597.0, 79.7, 608.3]: [IMAGE]
+[89.3, 628.4, 175.6, 641.5]: [Assistant-Regular|10.0|#2e2f52] Inglise keel CAE B2
+[89.3, 596.0, 189.1, 609.1]: [Assistant-Regular|10.0|#2e2f52] B-kategooria juhiload
+[69.2, 629.5, 79.7, 640.8]: [IMAGE]
+[89.3, 659.9, 146.8, 673.0]: [Assistant-Regular|10.0|#2e2f52] Vene keel B1
+[69.2, 660.9, 79.7, 672.1]: [IMAGE]
+[89.5, 691.9, 170.5, 705.0]: [Assistant-Regular|10.0|#2e2f52] Hispaania keel A2
+[69.2, 692.2, 79.7, 703.5]: [IMAGE]
+[284.4, 231.2, 443.3, 246.9]: [Assistant-SemiBold|12.0|#2e2f52] Majandusanalüüs, MA | TalTech
+[284.4, 248.6, 338.3, 261.7]: [Assistant-Regular|10.0|#2e2f52] sept 2025 - ...
+[284.4, 452.8, 529.5, 468.5]: [Assistant-SemiBold|12.0|#2e2f52] Sise rannavõrkpalli keskuse rajamine | The Rand
+[284.4, 469.6, 362.2, 482.7]: [Assistant-Regular|10.0|#2e2f52] apr 2025- aug 2026
+[284.4, 483.1, 573.2, 496.2]: [Assistant-Regular|10.0|#2e2f52] Veebilehe arendus, üldprojekteerimine, automaatika, eelarvestamine,
+[284.4, 496.6, 508.3, 509.7]: [Assistant-Regular|10.0|#2e2f52] organiseerimine, kõikvõimalikud ehitus- ja elektritööd
+[283.3, 518.7, 563.0, 534.4]: [Assistant-SemiBold|12.0|#2e2f52] Oma maja projekteerimine, eelarvestamine ning ehitus
+[283.3, 535.4, 361.6, 548.5]: [Assistant-Regular|10.0|#2e2f52] apr 2024 - apr 2025
+[283.3, 404.5, 529.4, 420.2]: [Assistant-SemiBold|12.0|#2e2f52] Projektide kasumlikkuse hindamine | ProSystem
+[283.3, 421.3, 334.7, 434.4]: [Assistant-Regular|10.0|#2e2f52] aug 2026 - ...
+[283.3, 434.8, 493.4, 447.9]: [Assistant-Regular|10.0|#2e2f52] Hindamise automatiseerimine ja mudeli ehitamine

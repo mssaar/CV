@@ -1,0 +1,58 @@
+Total pages: 2
+=== PAGE 1 ===
+[49.6, 202.0, 95.0, 215.0]: 15.12.2002
+[49.6, 247.2, 141.3, 260.2]: Viimsi vald, Harjumaa
+[49.6, 292.3, 111.7, 305.3]: +372 52 60 425
+[49.6, 337.5, 151.7, 350.5]: sverkersaar@gmail.com
+[27.4, 401.7, 155.3, 420.0]: IT-ALASED OSKUSED
+[27.4, 430.8, 64.4, 443.8]: ▪  Python
+[27.4, 447.7, 54.0, 460.7]: ▪  Java
+[27.4, 464.5, 51.3, 477.5]: ▪  SQL
+[27.4, 481.4, 124.7, 494.4]: ▪  R, EViews, Gretl, Stata
+[27.4, 498.3, 93.7, 511.4]: ▪  HTML, CSS, JS
+[27.4, 515.3, 56.2, 528.3]: ▪  Excel
+[27.4, 532.1, 146.3, 545.1]: ▪  Bitbucket, Jira, Confluence
+[27.4, 549.0, 79.2, 562.0]: ▪  Git, Github
+[27.4, 565.9, 51.8, 579.0]: ▪  CAD
+[27.4, 613.7, 143.5, 632.1]: MUUD VÄÄRTUSED
+[49.6, 643.9, 141.3, 657.0]: B-kategooria juhiload
+[49.6, 693.8, 128.9, 706.8]: Inglise keel CAE B2
+[49.6, 742.7, 103.5, 755.7]: Vene keel B1
+[42.8, 791.8, 124.5, 809.5]: Hispaania keel A2
+[251.8, 39.1, 494.2, 73.1]: MARK SVERKER SAAR
+[251.8, 98.7, 299.3, 115.7]: PROFIIL
+[251.8, 121.1, 546.1, 134.2]: Hetkel omandan õpinguid TalTechis majandusanalüüsi magistriõppes.
+[251.8, 144.2, 305.7, 161.2]: HARIDUS
+[251.8, 166.7, 325.5, 181.1]: KÕRGHARIDUS
+[251.8, 185.3, 403.7, 199.7]: Majandusanalüüs, MA | TalTech
+[251.8, 201.4, 305.1, 214.4]: sept 2025 - ...
+[251.8, 220.1, 422.1, 234.6]: Majandusteadus, BA | Tartu Ülikool
+[251.8, 236.2, 316.8, 249.3]: sept 2022 - 2025
+[260.5, 251.6, 378.9, 264.6]: ▪  Informaatika kõrvalerialana
+[251.8, 271.3, 323.1, 285.7]: KESKHARIDUS
+[251.8, 288.9, 333.7, 303.3]: Tallinna 21. Kool
+[251.8, 304.9, 297.6, 317.9]: 2019 - 2022
+[251.8, 327.7, 336.5, 344.7]: TÖÖKOGEMUS
+[251.8, 351.2, 487.3, 365.6]: Projektide kasumlikkuse hindamine | ProSystem
+[251.8, 367.3, 302.7, 380.3]: aug 2026 - ...
+[251.8, 382.7, 453.4, 395.7]: Hindamise automatiseerimine ja mudeli ehitamine
+[251.8, 401.0, 486.1, 415.4]: Sise rannavõrkpalli keskuse rajamine | The Rand
+[251.8, 417.1, 327.7, 430.1]: apr 2025- aug 2026
+[251.8, 433.0, 527.9, 459.4]: Veebilehe arendus, üldprojekteerimine, automaatika, eelarvestamine,  organiseerimine, kõikvõimalikud ehitus- ja elektritööd
+[251.8, 464.7, 519.2, 479.2]: Oma maja projekteerimine, eelarvestamine ning ehitus
+[251.8, 480.8, 328.2, 493.8]: apr 2024 - apr 2025
+[251.8, 499.5, 377.5, 514.0]: SEO praktika | SEO Studio
+[251.8, 515.6, 331.0, 528.6]: dets 2022 - jan 2023
+[251.8, 531.5, 530.5, 558.0]: SEO auditite koostamine, kodulehe ja konkurentide analüüs, kodulehe  optimeerimine ning blogipostituste loome
+[251.8, 563.3, 435.7, 577.7]: Eripuhastustööde teostaja | Auruproff
+[251.8, 579.4, 354.9, 592.4]: aug 2021; juuni - aug 2023
+[251.8, 594.6, 487.3, 607.6]: Kuumavee survepesu ning kõikvõimalikud erilahendustööd
+[251.8, 613.1, 399.1, 627.5]: Turunduspraktika | Poke Bowl
+[251.8, 629.2, 319.0, 642.2]: märts - mai 2023
+[251.8, 644.9, 525.2, 685.3]: Välisturgudele laienemisel võimaluste kaardistamine ja konkurentide  analüüs, potentsiaalsete ürituste otsimine, suunamudijatele koostöö  pakkumine
+[251.8, 690.7, 414.4, 705.2]: Klienditeenindaja | OKO Restoran
+[251.8, 706.8, 313.0, 719.9]: juuli - aug 2022
+[251.8, 725.5, 402.0, 740.0]: Elektrialased tööd | ProSystem
+[251.8, 741.6, 431.7, 754.7]: juuni - juuli 2020; juuni - juuli 2021; juuni 2022
+[251.8, 757.4, 511.3, 783.8]: Tänavavalgustuse hooldus ja remonttööde teostamine, valgustite  vahetamine ja sidetrassi ehitus
+=== PAGE 2 ===

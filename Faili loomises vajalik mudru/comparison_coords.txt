@@ -1,0 +1,99 @@
+Generated Page Count: 1
+=== ORIGINAL (CANVA) ===
+[93.0, 234.7, 182.8, 247.8]: Viimsi vald, Harjumaa
+[67.5, 349.9, 212.7, 368.2]: IT-ALASED OSKUSED
+[283.3, 49.4, 579.4, 86.0]: MARK SVERKER SAAR
+[67.5, 552.1, 197.1, 570.4]: MUUD VÄÄRTUSED
+[93.0, 285.4, 193.0, 298.4]: sverkersaar@gmail.com
+[84.5, 387.1, 211.6, 508.2]: Python Java SQL R, EViews, Gretl, Stata HTML, CSS, JS Excel Bitbucket, Jira, Confluence  Git, Github CAD
+[93.0, 259.8, 153.1, 272.9]: +372 52 60 425
+[94.5, 212.3, 137.9, 225.4]: 15.12.2002
+[284.4, 135.2, 512.7, 148.3]: Hetkel omandan õpinguid TalTechis majandusanalüüsi
+[284.4, 151.0, 346.3, 164.1]: magistriõppes.
+[283.3, 109.3, 338.9, 127.6]: PROFIIL
+[283.8, 177.2, 346.5, 195.5]: HARIDUS
+[303.2, 308.7, 418.1, 321.7]: Informaatika kõrvalerialana
+[286.2, 273.6, 463.9, 289.3]: Majandusteadus, BA | Tartu Ülikool
+[286.2, 291.1, 352.5, 304.2]: sept 2022 - 2025
+[283.3, 207.8, 359.3, 223.5]: KÕRGHARIDUS
+[286.2, 334.2, 370.5, 363.5]: KESKHARIDUS Tallinna 21. Kool
+[286.7, 365.6, 332.8, 378.7]: 2019 - 2022
+[283.3, 740.8, 452.9, 770.6]: Klienditeenindaja | OKO Restoran juuli - aug 2022
+[284.4, 615.8, 530.0, 659.3]: Eripuhastustööde teostaja | Auruproff aug 2021; juuni - aug 2023 Kuumavee survepesu ning kõikvõimalikud erilahendustööd
+[283.3, 663.8, 569.3, 734.2]: Turunduspraktika | Poke Bowl märts - mai 2023 Välisturgudele laienemisel võimaluste kaardistamine ja konkurentide analüüs, potentsiaalsete ürituste otsimine, suunamudijatele koostöö pakkumine
+[284.4, 553.6, 535.0, 610.4]: SEO praktika | SEO Studio dets 2022 - jan 2023 SEO auditite koostamine, kodulehe ja konkurentide analüüs, kodulehe optimeerimine ning blogipostituste loome
+[283.3, 777.2, 439.5, 792.9]: Elektrialased tööd | ProSystem
+[283.8, 794.0, 554.7, 834.0]: juuni - juuli 2020; juuni - juuli 2021; juuni 2022 Tänavavalgustuse hooldus ja remonttööde teostamine, valgustite vahetamine ja sidetrassi ehitus
+[281.4, 386.3, 381.1, 404.6]: TÖÖKOGEMUS
+[89.3, 628.4, 175.6, 641.5]: Inglise keel CAE B2
+[89.3, 596.0, 189.1, 609.1]: B-kategooria juhiload
+[89.3, 659.9, 146.8, 673.0]: Vene keel B1
+[89.5, 691.9, 170.5, 705.0]: Hispaania keel A2
+[284.4, 231.2, 443.3, 246.9]: Majandusanalüüs, MA | TalTech
+[284.4, 248.6, 338.3, 261.7]: sept 2025 - ...
+[284.4, 452.8, 573.2, 509.7]: Sise rannavõrkpalli keskuse rajamine | The Rand apr 2025- aug 2026 Veebilehe arendus, üldprojekteerimine, automaatika, eelarvestamine, organiseerimine, kõikvõimalikud ehitus- ja elektritööd
+[283.3, 518.7, 563.0, 548.5]: Oma maja projekteerimine, eelarvestamine ning ehitus apr 2024 - apr 2025
+[283.3, 404.5, 529.4, 447.9]: Projektide kasumlikkuse hindamine | ProSystem aug 2026 - ... Hindamise automatiseerimine ja mudeli ehitamine
+
+=== GENERATED (DOCX) ===
+[202.7, 158.1, 204.7, 171.1]: 
+[85.1, 195.5, 138.8, 211.8]: 15.12.2002
+[84.4, 216.1, 185.2, 232.3]: Viimsi vald, Harjumaa
+[84.0, 236.6, 155.5, 252.9]: +372 52 60 425
+[85.1, 257.1, 195.5, 273.3]: sverkersaar@gmail.com
+[28.8, 274.2, 30.8, 287.2]: 
+[28.8, 289.9, 30.8, 302.9]: 
+[67.0, 330.1, 194.9, 348.5]: IT-ALASED OSKUSED
+[72.0, 359.2, 109.3, 372.3]: •  Python
+[72.0, 375.7, 99.0, 388.7]: •  Java
+[72.0, 392.0, 96.3, 405.0]: •  SQL
+[72.0, 408.3, 169.7, 421.4]: •  R, EViews, Gretl, Stata
+[72.0, 424.7, 138.6, 437.7]: •  HTML, CSS, JS
+[72.0, 441.0, 101.1, 454.0]: •  Excel
+[72.0, 457.3, 191.3, 470.3]: •  Bitbucket, Jira, Confluence
+[72.0, 473.6, 124.1, 486.6]: •  Git, Github
+[28.8, 489.9, 96.8, 510.0]: •  CAD
+[67.0, 537.3, 183.1, 555.6]: MUUD VÄÄRTUSED
+[85.5, 570.5, 185.2, 587.2]: B-kategooria juhiload
+[85.5, 592.6, 172.7, 608.7]: Inglise keel CAE B2
+[85.5, 614.5, 147.3, 630.9]: Vene keel B1
+[85.5, 636.5, 168.3, 652.8]: Hispaania keel A2
+[28.8, 654.4, 30.8, 667.4]: 
+[28.8, 670.1, 30.8, 683.1]: 
+[283.2, 38.4, 544.3, 75.0]: MARK SVERKER SAAR
+[283.2, 101.7, 334.3, 120.1]: PROFIIL
+[283.2, 125.3, 577.5, 138.4]: Hetkel omandan õpinguid TalTechis majandusanalüüsi magistriõppes.
+[283.2, 148.4, 341.1, 166.8]: HARIDUS
+[283.2, 171.8, 363.5, 187.5]: KÕRGHARIDUS
+[283.2, 191.4, 448.9, 207.1]: Majandusanalüüs, MA | TalTech
+[283.2, 209.6, 339.1, 222.6]: sept 2025 - ...
+[283.2, 228.0, 468.8, 243.7]: Majandusteadus, BA | Tartu Ülikool
+[283.2, 246.2, 351.6, 259.2]: sept 2022 - 2025
+[291.9, 262.2, 415.9, 275.2]: •  Informaatika kõrvalerialana
+[283.2, 281.7, 360.9, 297.4]: KESKHARIDUS
+[283.2, 300.8, 372.4, 316.5]: Tallinna 21. Kool
+[283.2, 318.8, 331.3, 331.8]: 2019 - 2022
+[283.2, 340.9, 374.3, 359.3]: TÖÖKOGEMUS
+[283.2, 365.4, 540.0, 381.1]: Projektide kasumlikkuse hindamine | ProSystem
+[283.2, 383.5, 336.7, 396.5]: aug 2026 - ...
+[283.2, 399.6, 495.3, 412.6]: Hindamise automatiseerimine ja mudeli ehitamine
+[283.2, 418.4, 538.6, 434.1]: Sise rannavõrkpalli keskuse rajamine | The Rand
+[283.2, 436.4, 363.0, 449.4]: apr 2025- aug 2026
+[283.2, 452.5, 573.9, 480.2]: Veebilehe arendus, üldprojekteerimine, automaatika, eelarvestamine,  organiseerimine, kõikvõimalikud ehitus- ja elektritööd
+[283.2, 485.9, 574.6, 501.6]: Oma maja projekteerimine, eelarvestamine ning ehitus
+[283.2, 504.1, 363.6, 517.1]: apr 2024 - apr 2025
+[283.2, 523.3, 420.3, 539.0]: SEO praktika | SEO Studio
+[283.2, 541.5, 366.5, 554.5]: dets 2022 - jan 2023
+[283.2, 557.4, 576.5, 585.1]: SEO auditite koostamine, kodulehe ja konkurentide analüüs, kodulehe  optimeerimine ning blogipostituste loome
+[283.2, 591.0, 483.7, 606.7]: Eripuhastustööde teostaja | Auruproff
+[283.2, 609.0, 391.6, 622.0]: aug 2021; juuni - aug 2023
+[283.2, 625.1, 530.9, 638.1]: Kuumavee survepesu ning kõikvõimalikud erilahendustööd
+[283.2, 643.9, 443.9, 659.6]: Turunduspraktika | Poke Bowl
+[283.2, 661.9, 353.8, 675.0]: märts - mai 2023
+[283.2, 678.0, 570.8, 720.3]: Välisturgudele laienemisel võimaluste kaardistamine ja konkurentide  analüüs, potentsiaalsete ürituste otsimine, suunamudijatele koostöö  pakkumine
+[283.2, 726.1, 460.4, 741.8]: Klienditeenindaja | OKO Restoran
+[283.2, 744.3, 347.5, 757.3]: juuli - aug 2022
+[283.2, 763.4, 446.9, 779.1]: Elektrialased tööd | ProSystem
+[283.2, 781.6, 472.5, 794.6]: juuni - juuli 2020; juuni - juuli 2021; juuni 2022
+[283.2, 797.6, 556.5, 825.3]: Tänavavalgustuse hooldus ja remonttööde teostamine, valgustite  vahetamine ja sidetrassi ehitus
+[28.8, 829.8, 29.0, 831.0]: 
