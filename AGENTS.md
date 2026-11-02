@@ -20,11 +20,18 @@ Eesmärk on hoida kõik dokumendid professionaalsed, ajakohased ja sünkroniseer
 2. **Kujundus ja leheküljearv:**
    - CV peab mahtuma Wordist ekspordituna **täpselt ühele lehele** (1 page). Teksti ega veeriseid ei tohi lasta valguda teisele lehele.
    - Visuaalne hierarhia, fondid, värvid ja paigutus peavad olema mõlemas keeleversioonis identsed.
-3. **Automaatne PDF eksport:**
-   - Pärast mis tahes docx faili muutmist käivita kaustas olev skript:
+3. **Automaatne PDF eksport ja jälgimine:**
+   - **Käsurida:** käivita kaustas:
      ```powershell
      powershell -ExecutionPolicy Bypass -File export_pdfs.ps1
      ```
+   - **Topeltklõpsuga (Windows Explorer):** Käivita `export_pdfs.cmd`.
+   - **Reaalajas automaatne jälgija (Live Watcher):** Käivita `watch_docx.cmd` või:
+     ```powershell
+     powershell -ExecutionPolicy Bypass -File watch_docx.ps1
+     ```
+     See tuvastab Wordis `Ctrl+S` salvestamise ja genereerib PDF-i automaatselt taustal.
+   - **Git Pre-commit Hook (`.git/hooks/pre-commit`):** Kui `git commit` käivitatakse ja mõni `.docx` on muudetud, genereeritakse ja commititakse uuendatud PDF-id automaatselt.
    - Skript konverteerib Microsoft Wordi COM-liidese kaudu kõik `.docx` failid täpse kujundusega `.pdf` failideks ning kontrollib lehekülgede arvu.
 
 ---
@@ -42,6 +49,10 @@ Eesmärk on hoida kõik dokumendid professionaalsed, ajakohased ja sünkroniseer
 | `Mark Sverker Saar_ Motivatsioonikiri ENG.docx` | Ingliskeelne motivatsioonikiri |
 | `Mark Sverker Saar_ Motivatsioonikiri ENG.pdf` | Ingliskeelne motivatsioonikiri (PDF) |
 | `export_pdfs.ps1` | PowerShell skript kõigi DOCX failide Word COM-i kaudu PDF-iks genereerimiseks |
+| `export_pdfs.cmd` | Ühe-klõpsu käivitaja PDF-ide genereerimiseks Windowsis |
+| `watch_docx.ps1` | PowerShell reaalajas jälgija (regenererib PDF-i kohe, kui Wordis salvestad) |
+| `watch_docx.cmd` | Ühe-klõpsu käivitaja reaalajas jälgija käivitamiseks |
+| `.git/hooks/pre-commit` | Git hook, mis uuendab ja lisab PDF-id igal commitil automaatselt |
 | `Faili loomises vajalik mudru/` | Algse Canva kujunduse ikoonid, fondid ja layouti abimaterjalid |
 | `AGENTS.md` | Projekti kesksed juhised ja agentide reeglid |
 | `README.md` | Repositooriumi avalik tutvustus GitHubis |

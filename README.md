@@ -23,8 +23,18 @@ See repositoorium sisaldab Mark Sverker Saare elulookirjeldust (CV) ja motivatsi
 ---
 
 ## Automaatika / Automation
-Kõik PDF failid genereeritakse otse Wordi dokumendist skriptiga:
-```powershell
-powershell -ExecutionPolicy Bypass -File export_pdfs.ps1
-```
-Reeglid ja arendussuunised asuvad failis [`AGENTS.md`](./AGENTS.md).
+PDF failide ajakohasena hoidmiseks on mitu mugavat võimalust:
+
+1. **Topeltklõps Windowsis:** Käivita [`export_pdfs.cmd`](./export_pdfs.cmd) või reaalajas jälgija [`watch_docx.cmd`](./watch_docx.cmd).
+2. **Käsurida (PowerShell):**
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File export_pdfs.ps1
+   ```
+3. **Reaalajas jälgija (Live Watcher):**
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File watch_docx.ps1
+   ```
+   *(Uuendab PDF-i automaatselt iga kord, kui Wordis `Ctrl+S` vajutad)*
+4. **Git Pre-commit Hook:** Igal commitil (sh agendi autosync) genereeritakse ja commititakse PDF-id automaatselt.
+
+Täpsemad reeglid ja arendussuunised asuvad failis [`AGENTS.md`](./AGENTS.md).
