@@ -63,6 +63,26 @@ Eesmärk on hoida kõik dokumendid professionaalsed, ajakohased ja sünkroniseer
 
 ---
 
+## GitHub Pages ja Veebiavaldamine (CI/CD)
+Veebileht (`index.html`) avaldatakse automaatselt aadressile **`https://mssaar.github.io/CV/`** iga kord, kui `main` harusse tehakse push.
+- **Töövoog:** `.github/workflows/deploy-pages.yml`
+- **Avaldatavad failid (`_site/`):** Veebilehe puhtad komponendid (`index.html`, `style.css`, `app.js`, `assets/`, ning genereeritud `*.pdf` failid). Mittevajalikke faile (nagu ajutisi Wordi teste, skripte ega Canva toormaterjali) veebipaketti ei kaasata.
+- **Deploy staatuse ja logide kontroll:**
+  ```powershell
+  node C:\Users\sverk\.gemini\config\scripts\deploy-status.mjs
+  ```
+- **Reaalajas jälgimine:**
+  ```powershell
+  node C:\Users\sverk\.gemini\config\scripts\deploy-status.mjs --watch
+  ```
+- **Uue deploy käivitamine:**
+  ```powershell
+  node C:\Users\sverk\.gemini\config\scripts\deploy-status.mjs --trigger
+  ```
+
+
+---
+
 ## Kasutaja käsitsi tehtud muudatuste puutumatus
 - Kui kasutaja on teinud käsitsi muudatusi mis tahes failis (`.docx`, `.pdf`, `.md`), ei tohi neid kunagi tahtmatult üle kirjutada ega kustutada.
 - Enne automatiseeritud skriptide käivitamist või genereerimist kontrollitakse alati, mis failides on muudatusi toimunud.
