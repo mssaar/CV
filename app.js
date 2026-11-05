@@ -26,6 +26,10 @@ const translations = {
     
     badgePublic: "Avatud lähtekood",
     badgeLiveApp: "Live Veebirakendus",
+    badgeLiveWebPwa: "Live Veeb & PWA",
+    badgeQuantModel: "Finants- & kvantmudel",
+    badgeAutoPipeline: "Automaatika pipeline",
+    lblProprietary: "Privaatne koodibaas",
     btnLiveDemo: "Live Rakendus",
     btnVisitSite: "Külasta veebi",
 
@@ -42,7 +46,7 @@ const translations = {
     p1Desc: "KV.ee korterikuulutuste automaatne andmekorje ja ökonomeetriline mudel, mis arvutab asumipõhist üüritootlust ning tuvastab alahinnatud kortereid.",
 
     pMarkowitzTitle: "Markowitz — Portfelli optimeerimise mudel",
-    pMarkowitzDesc: "Java rakendus, mis kogub Yahoo Finance'ist aktsiahindu, arvutab tulumäärade kovariatsioonimaatriksi ning optimeerib investeerimisportfelli Markowitzi mudeli järgi.",
+    pMarkowitzDesc: "Java rakendus, mis kogub Yahoo Finance'ist aktsiahindu, arvutab tulumäärade kovariatsioonimaatriksi ning optimeerib investeerimisportfelli Markowitzi mudeli järgi — võtab arvesse olemasoleva portfelli sisu ning arvutab täpselt, milliseid instrumente mitu tükki juurde osta.",
 
     p3Title: "ProSystem — Projektide kasumlikkuse kalkulaator",
     p3Desc: "Brauseripõhine finantstööriist ettevõtte objektide tegeliku kasumlikkuse arvutamiseks tööaja- ja kuluaruannete põhjal ilma andmeid serverisse saatmata.",
@@ -50,8 +54,8 @@ const translations = {
     p4Title: "Kuku Raadio — Arhiiv, otse-eeter ja pleier",
     p4Desc: "Kuku raadio veebipleier otse-eetri kuulamisega, mis eemaldab taskuhäälingute episoodidest automaatselt reklaamid ja laadib GitHub Actions cronjob'iga alla uusi saateid.",
 
-    pAutomSotsTitle: "Sotsiaalmeedia automatiseerimise töövoog",
-    pAutomSotsDesc: "Mitmeplatvormiline sotsiaalmeedia postituste ajastamise, formaatide kohandamise ja automaatse avaldamise töövoog.",
+    pAutomSotsTitle: "Sotsiaalmeedia automatiseerimise pipeline",
+    pAutomSotsDesc: "Täisautomaatne sisu tootmise ja postitamise pipeline, mis integreerib Meta Graph API (Instagram & Facebook Reels), ElevenLabs häälesünteesi, AI lip-sync mudelid ja FFmpeg videotöötluse (9:16 formaat, subtiitrid ja bränding).",
 
     footerHeading: "Võta ühendust",
     footerSub: "Olen alati avatud põnevatele projektidele, analüütika väljakutsetele ja koostööpakkumistele.",
@@ -81,6 +85,10 @@ const translations = {
 
     badgePublic: "Open Source",
     badgeLiveApp: "Live Platform",
+    badgeLiveWebPwa: "Live Web & PWA",
+    badgeQuantModel: "Quantitative Finance Model",
+    badgeAutoPipeline: "Automation Pipeline",
+    lblProprietary: "Proprietary Codebase",
     btnLiveDemo: "Live App",
     btnVisitSite: "Visit Website",
 
@@ -97,7 +105,7 @@ const translations = {
     p1Desc: "Automated real estate scraper and econometric model analyzing district rental yields and identifying undervalued listings in Tallinn.",
 
     pMarkowitzTitle: "Markowitz — Portfolio Optimization Model",
-    pMarkowitzDesc: "Java application fetching Yahoo Finance market data, computing return variance-covariance matrices, and optimizing investment asset allocation.",
+    pMarkowitzDesc: "Java quantitative finance app fetching Yahoo Finance data and computing covariance matrices to optimize portfolio weights — factors in current portfolio holdings and calculates the exact share quantities to purchase for optimal rebalancing.",
 
     p3Title: "ProSystem — Project Profitability Calculator",
     p3Desc: "Client-side financial calculator assessing project profitability by automatically mapping labor and cost reports without external servers.",
@@ -105,8 +113,8 @@ const translations = {
     p4Title: "Kuku Radio — Archive, Live Stream & Player",
     p4Desc: "Kuku radio web player featuring live stream playback, automated podcast audio ad removal, and scheduled GitHub Actions cronjob downloads.",
 
-    pAutomSotsTitle: "Automated Social Media Pipeline",
-    pAutomSotsDesc: "Multi-platform workflow automating post scheduling, vertical format adaptation, and cross-channel publishing queues.",
+    pAutomSotsTitle: "Social Media Automation Pipeline",
+    pAutomSotsDesc: "End-to-end media generation and publishing pipeline integrating Meta Graph API (Instagram & Facebook Reels), ElevenLabs neural voice synthesis, AI lip-sync models, and FFmpeg video processing (9:16 vertical formatting, auto-subtitles, and outro branding).",
 
     footerHeading: "Get in Touch",
     footerSub: "Always open to ambitious analytical projects, technical opportunities, and collaboration.",
