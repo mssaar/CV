@@ -43,7 +43,7 @@ const translations = {
     pProsystemEeDesc: "ProSystem OÜ esindusveeb ja Remato-laadne PWA sisekeskkond tööaja arvestuse, seadmete laenutuse ning objektide haldusega.",
 
     p1Title: "Kinnisvara üüritootlus & hinnamudel",
-    p1Desc: "KV.ee korterikuulutuste automaatne andmekorje ja ökonomeetriline mudel, mis arvutab asumipõhist üüritootlust ning tuvastab alahinnatud kortereid.",
+    p1Desc: "KV.ee korterikuulutuste automaatne andmekorje ja ökonomeetriline mudel, mis arvutab asumipõhist üüritootlust ning tuvastab alahinnatud kortereid ja piirkondi.",
 
     pMarkowitzTitle: "Markowitz — Portfelli optimeerimise mudel",
     pMarkowitzDesc: "Java rakendus, mis kogub Yahoo Finance'ist aktsiahindu, arvutab tulumäärade kovariatsioonimaatriksi ning optimeerib investeerimisportfelli Markowitzi mudeli järgi — võtab arvesse olemasoleva portfelli sisu ning arvutab täpselt, milliseid instrumente mitu tükki juurde osta.",
