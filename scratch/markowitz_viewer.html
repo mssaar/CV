@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Markowitz Portfolio Optimization — Java</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0b0f19;
+      color: #c9d1d9;
+      font-family: 'JetBrains Mono', monospace;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    .editor-window {
+      max-width: 1200px;
+      margin: 20px auto;
+      background: #111827;
+      border: 1px solid #1f2937;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+    }
+    .editor-titlebar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #0f172a;
+      padding: 12px 18px;
+      border-bottom: 1px solid #1f2937;
+    }
+    .window-controls {
+      display: flex;
+      gap: 8px;
+    }
+    .win-btn {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+    .btn-red { background: #ff5f56; }
+    .btn-yellow { background: #ffbd2e; }
+    .btn-green { background: #27c93f; }
+    
+    .editor-tab {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #111827;
+      padding: 6px 14px;
+      border-radius: 6px 6px 0 0;
+      font-size: 0.85rem;
+      color: #38bdf8;
+      border-top: 2px solid #38bdf8;
+      font-weight: 600;
+    }
+    .file-badge {
+      font-size: 0.75rem;
+      background: rgba(56, 189, 248, 0.15);
+      color: #38bdf8;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+    pre[class*="language-"] {
+      margin: 0;
+      padding: 24px;
+      background: #0d1117 !important;
+      font-size: 14px;
+      line-height: 1.65;
+    }
+    code[class*="language-"] {
+      font-family: 'JetBrains Mono', monospace !important;
+    }
+    .stats-bar {
+      display: flex;
+      gap: 20px;
+      background: #090d16;
+      padding: 8px 18px;
+      border-top: 1px solid #1f2937;
+      font-size: 0.75rem;
+      color: #94a3b8;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .stat-item span {
+      color: #38bdf8;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="editor-window">
+    <div class="editor-titlebar">
+      <div class="window-controls">
+        <span class="win-btn btn-red"></span>
+        <span class="win-btn btn-yellow"></span>
+        <span class="win-btn btn-green"></span>
+      </div>
+      <div class="editor-tab">
+        <span>☕</span>
+        <span>Calculate.java</span>
+      </div>
+      <span class="file-badge">Markowitz Modern Portfolio Theory · Java 17</span>
+    </div>
+    <pre class="line-numbers"><code class="language-java">import java.io.*;
+import java.util.*;
+
+/**
+ * Markowitz Portfolio Optimization Engine
+ * Calculates returns, standard deviations, and Variance-Covariance matrix
+ * for asset allocation and efficient frontier optimization.
+ */
+public class Calculate {
+
+    // 1. Arvutab instrumentide päeva- ja aastased tulumäärad ning volatiilsuse
+    static Map&lt;String, Map&lt;String, Double&gt;&gt; arvutaStatistika(Map&lt;String, List&lt;Double&gt;&gt; ratesMap) {
+        Map&lt;String, Map&lt;String, Double&gt;&gt; statsMap = new LinkedHashMap&lt;&gt;();
+
+        for (String instrument : ratesMap.keySet()) {
+            List&lt;Double&gt; dailyReturns = ratesMap.get(instrument);
+
+            // Päevase keskmise tulumäära arvutamine
+            double avgDailyReturn = dailyReturns.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);
+
+            // Päevase standardhälbe (volatiilsuse) arvutamine
+            double dailyStdDev = Math.sqrt(dailyReturns.stream()
+                    .mapToDouble(r -&gt; Math.pow(r - avgDailyReturn, 2))
+                    .average().orElse(0.0));
+
+            // Aastane tulumäär (252 kauplemispäeva)
+            double annualizedReturn = avgDailyReturn * 252;
+            double annualizedStdDev = dailyStdDev * Math.sqrt(252);
+
+            Map&lt;String, Double&gt; instrumentStats = new LinkedHashMap&lt;&gt;();
+            instrumentStats.put("Daily Return Rate", avgDailyReturn);
+            instrumentStats.put("Annualized Return Rate", annualizedReturn);
+            instrumentStats.put("Daily Standard Deviation", dailyStdDev);
+            instrumentStats.put("Annualized Standard Deviation", annualizedStdDev);
+
+            statsMap.put(instrument, instrumentStats);
+        }
+        return statsMap;
+    }
+
+    // 2. Arvutab instrumentide vahelise VAR-COVAR (kovariatsiooni) maatriksi
+    public static double[][] arvutaVarCovarMaatriks(Map&lt;String, List&lt;Double&gt;&gt; rates, 
+                                                    Map&lt;String, Map&lt;String, Double&gt;&gt; stats) {
+        List&lt;String&gt; instruments = new ArrayList&lt;&gt;(rates.keySet());
+        int n = rates.get(instruments.get(0)).size();
+        double[][] meanCentered = new double[instruments.size()][n];
+
+        // Normaliseerime andmed: lahutame igast väärtusest keskmise
+        for (int i = 0; i &lt; instruments.size(); i++) {
+            String instrument = instruments.get(i);
+            List&lt;Double&gt; returns = rates.get(instrument);
+            double mean = stats.get(instrument).get("Daily Return Rate");
+            for (int j = 0; j &lt; n; j++) {
+                meanCentered[i][j] = returns.get(j) - mean;
+            }
+        }
+
+        // VAR-COVAR maatriksi arvutamine ja aastaseks taandamine (divisor = n / 252.0)
+        double[][] varCovar = new double[instruments.size()][instruments.size()];
+        double divisor = n / 252.0;
+        for (int i = 0; i &lt; instruments.size(); i++) {
+            for (int j = 0; j &lt; instruments.size(); j++) {
+                double sum = 0.0;
+                for (int k = 0; k &lt; n; k++) {
+                    sum += meanCentered[i][k] * meanCentered[j][k];
+                }
+                varCovar[i][j] = sum / divisor;
+            }
+        }
+        return varCovar;
+    }
+
+    // 3. Optimeerib portfelli ja genereerib tulemused CSV formaati
+    public static void teePortfelliOptimeerimine(Map&lt;String, Map&lt;String, Double&gt;&gt; stats, 
+                                                 double[][] varCovarMaatriks) {
+        List&lt;String&gt; assets = new ArrayList&lt;&gt;(stats.keySet());
+        String fileName = "Optimeerimine.csv";
+        
+        try (PrintWriter writer = new PrintWriter(new FileWriter(fileName))) {
+            writer.print("Asset");
+            for (String asset : assets) writer.print("," + asset);
+            writer.println();
+            
+            writer.print("Annualized Return Rate");
+            for (String asset : stats.keySet())
+                writer.print("," + stats.get(asset).get("Annualized Return Rate"));
+            writer.println();
+
+            // Portfelli kaalud ja Excel Solver optimeerimise valemid
+            writer.print("Weight");
+            for (int i = 0; i &lt; assets.size(); i++) writer.print("," + (i == 0 ? "1" : "0"));
+            writer.println();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}</code></pre>
+    <div class="stats-bar">
+      <div class="stat-item">Keeled: <span>Java 17</span></div>
+      <div class="stat-item">Teooria: <span>Markowitz Modern Portfolio Theory (MPT)</span></div>
+      <div class="stat-item">Andmed: <span>Yahoo Finance API / Web Scraping</span></div>
+      <div class="stat-item">Meetod: <span>Var-Covar Matrix & Efficient Frontier</span></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
+</body>
+</html>
