@@ -53,6 +53,10 @@ Eesmärk on hoida kõik dokumendid professionaalsed, ajakohased ja sünkroniseer
 | `watch_docx.ps1` | PowerShell reaalajas jälgija (regenererib PDF-i kohe, kui Wordis salvestad) |
 | `watch_docx.cmd` | Ühe-klõpsu käivitaja reaalajas jälgija käivitamiseks |
 | `.git/hooks/pre-commit` | Git hook, mis uuendab ja lisab PDF-id igal commitil automaatselt |
+| `index.html` | Portfoolio ja CV interaktiivne veebileht (GitHub Pages valmidus) |
+| `style.css` | Veebilehe kaasaegne tume kujundus ja responsiivsus |
+| `app.js` | Keelevahetus (ET/EN), interaktiivne CV modaal ja navigeerimine |
+| `assets/videos/` | Projektide optimeeritud WebM/MP4 videod ja poster-thumbnailid |
 | `Faili loomises vajalik mudru/` | Algse Canva kujunduse ikoonid, fondid ja layouti abimaterjalid |
 | `AGENTS.md` | Projekti kesksed juhised ja agentide reeglid |
 | `README.md` | Repositooriumi avalik tutvustus GitHubis |
