@@ -570,6 +570,12 @@ body {
   border: 1px solid rgba(16, 185, 129, 0.4);
 }
 
+.badge-live {
+  background: rgba(56, 189, 248, 0.2);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.4);
+}
+
 .badge-private {
   background: rgba(245, 158, 11, 0.2);
   color: #fbbf24;

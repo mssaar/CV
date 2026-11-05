@@ -25,7 +25,18 @@ const translations = {
     projSectionSubtitle: "Kõik klipid peegeldavad reaalset toimivat koodi, kasutajaliidest ja andmeanalüüsi.",
     
     badgePublic: "Avatud lähtekood",
+    badgeLiveApp: "Live Veebirakendus",
     btnLiveDemo: "Live Rakendus",
+    btnVisitSite: "Külasta veebi",
+
+    pRandTitle: "The Rand — Rannaspordikeskuse platvorm",
+    pRandDesc: "Kaasaegne rannaspordikeskuse esindusveeb ja broneerimisplatvorm Kristiine 6 väljakuga liivahallile.",
+
+    pValgusTitle: "Rannahalli nutivalgustuse automaatika",
+    pValgusDesc: "Rannaspordikeskuse väljakute valgustuse automaatika Pythonis, mis juhib nutireleesid vastavalt reaalajas broneeringukalendrile.",
+
+    pProsystemEeTitle: "ProSystem OÜ — Esindusveeb & PWA sisekeskkond",
+    pProsystemEeDesc: "ProSystem OÜ esindusveeb ja Remato-laadne PWA sisekeskkond tööaja arvestuse, seadmete laenutuse ning objektide haldusega.",
 
     p1Title: "Kinnisvara üüritootlus & hinnamudel",
     p1Desc: "KV.ee korterikuulutuste automaatne andmekorje ja ökonomeetriline mudel, mis arvutab asumipõhist üüritootlust ning tuvastab alahinnatud kortereid.",
@@ -66,7 +77,18 @@ const translations = {
     projSectionSubtitle: "All clips demonstrate production code, responsive user interfaces, and data science workflows.",
 
     badgePublic: "Open Source",
+    badgeLiveApp: "Live Platform",
     btnLiveDemo: "Live App",
+    btnVisitSite: "Visit Website",
+
+    pRandTitle: "The Rand — Beach Sports Center Platform",
+    pRandDesc: "Modern beach sports center website and booking platform for Kristiine's 6-court indoor sand arena.",
+
+    pValgusTitle: "Beach Arena Smart Lighting Automation",
+    pValgusDesc: "Python automation system controlling court floodlights via smart relays synchronized with real-time reservation schedules.",
+
+    pProsystemEeTitle: "ProSystem OÜ — Corporate Web & Internal PWA",
+    pProsystemEeDesc: "Corporate website and internal Remato-replacement PWA featuring live time tracking, tool checkout, and project management.",
 
     p1Title: "Real Estate Rental Yield & Pricing Model",
     p1Desc: "Automated real estate scraper and econometric model analyzing district rental yields and identifying undervalued listings in Tallinn.",
