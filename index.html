@@ -23,7 +23,6 @@
 
       <nav class="nav-links" id="navLinks">
         <a href="#projects" class="nav-link" data-i18n="navProjects">Projektid</a>
-        <a href="#about" class="nav-link" data-i18n="navAbout">Taust & Oskused</a>
         <a href="#contact" class="nav-link" data-i18n="navContact">Kontakt</a>
       </nav>
 
@@ -35,11 +34,6 @@
           <button type="button" class="lang-btn" id="btnLangEN" onclick="setLanguage('en')">EN</button>
         </div>
 
-        <button type="button" class="btn btn-outline cv-nav-btn" onclick="openCvModal()">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-          <span data-i18n="navCv">Ava CV</span>
-        </button>
-
         <button class="mobile-toggle" id="mobileToggle" aria-label="Menüü">
           <span></span><span></span><span></span>
         </button>
@@ -49,11 +43,11 @@
 
   <!-- Hero Section -->
   <section class="hero-section">
-    <div class="container hero-container">
+    <div class="container hero-container single-col">
       <div class="hero-content">
         <div class="status-pill">
           <span class="pulse-dot"></span>
-          <span data-i18n="heroStatus">TalTech MA Majandusanalüüs · TÜ Informaatika kõrvaleriala</span>
+          <span data-i18n="heroStatus">TalTech MA Majandusanalüüs · TÜ Majandusteadus (informaatika kõrvaleriala)</span>
         </div>
         
         <h1 class="hero-title">
@@ -61,58 +55,23 @@
           <span class="gradient-text">Mark Sverker Saar</span>
         </h1>
 
-        <p class="hero-desc" data-i18n="heroBio">
-          Ühendan majandusteaduse ja finantsökonomeetria kaasaegse tarkvaraarenduse, andmekorje ning reaalsete insenerilahendustega. Loon toimivaid süsteeme alates brauseripõhistest kalkulaatoritest ja scraping-mudelitest kuni nutika spordikeskuse automaatikani.
-        </p>
+        <ul class="hero-keywords">
+          <li><span class="kw-bullet">▸</span> <span data-i18n="kw1">Majandusanalüüs & finantsökonomeetria</span></li>
+          <li><span class="kw-bullet">▸</span> <span data-i18n="kw2">Tarkvaraarendus (Python, Java, JavaScript, SQL)</span></li>
+          <li><span class="kw-bullet">▸</span> <span data-i18n="kw3">Andmekorje, veebikraapimine & mudelite ehitamine</span></li>
+          <li><span class="kw-bullet">▸</span> <span data-i18n="kw4">Ärianalüütika & tööriistad (Power BI, Stata, R, DaVinci Resolve)</span></li>
+        </ul>
 
         <div class="hero-cta">
           <button type="button" class="btn btn-primary" onclick="openCvModal()">
-            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
-            <span data-i18n="btnViewCv">Vaata CV-d (PDF)</span>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            <span data-i18n="btnViewCv">Vaata CV-d</span>
           </button>
-          
-          <a id="btnDownloadCv" href="Mark Sverker Saar CV.pdf" download class="btn btn-secondary">
-            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-            <span data-i18n="btnDownloadCv">Laadi alla PDF</span>
-          </a>
 
           <a href="#projects" class="btn btn-ghost">
             <span data-i18n="btnExploreProjects">Uuri töid</span>
             <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
           </a>
-        </div>
-      </div>
-
-      <!-- Quick Metrics Card -->
-      <div class="hero-visual">
-        <div class="glass-card stat-hero-card">
-          <div class="stat-header">
-            <span class="stat-tag" data-i18n="heroCardFocus">Fookusvaldkonnad</span>
-            <span class="code-badge">EST / ENG</span>
-          </div>
-          <ul class="focus-list">
-            <li>
-              <div class="focus-icon">📈</div>
-              <div>
-                <strong data-i18n="focus1Title">Majandus- & finantsanalüüs</strong>
-                <p data-i18n="focus1Desc">Ökonomeetrilised mudelid, tootluse arvutused, investeeringud</p>
-              </div>
-            </li>
-            <li>
-              <div class="focus-icon">⚡</div>
-              <div>
-                <strong data-i18n="focus2Title">Tarkvaraarendus & andmekorje</strong>
-                <p data-i18n="focus2Desc">Python, JavaScript, SQL, automaatne andmekogumine ja API-d</p>
-              </div>
-            </li>
-            <li>
-              <div class="focus-icon">🏖️</div>
-              <div>
-                <strong data-i18n="focus3Title">Päriselu infrastruktuur & automaatika</strong>
-                <p data-i18n="focus3Desc">The Rand sisehalli rajamine, valgusautomaatika, broneerimissüsteem</p>
-              </div>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
@@ -166,39 +125,7 @@
           </div>
         </article>
 
-        <!-- 2. The Rand Rannahall -->
-        <article class="project-card">
-          <div class="project-media">
-            <video autoplay loop muted playsinline poster="assets/videos/the_rand_thumb.jpg">
-              <source src="assets/videos/the_rand.webm" type="video/webm">
-              <source src="assets/videos/the_rand.mp4" type="video/mp4">
-            </video>
-            <div class="media-overlay">
-              <span class="badge badge-private" data-i18n="badgePrivate">Ettevõtte süsteem · Live</span>
-            </div>
-          </div>
-          <div class="project-body">
-            <h3 class="project-title" data-i18n="p2Title">The Rand — Spordikeskuse platvorm & automaatika</h3>
-            <p class="project-desc" data-i18n="p2Desc">
-              Sise-rannaspordikeskuse täislahendus alates broneeringutega sünkroniseeritud nutikast valgustusautomaatikast kuni veebiplatvormi ja üldehituseni.
-            </p>
-            <div class="tech-stack">
-              <span class="tech-pill">Web Development</span>
-              <span class="tech-pill">Python</span>
-              <span class="tech-pill">IoT Automaatika</span>
-              <span class="tech-pill">Ehitus & Eelarvestus</span>
-              <span class="tech-pill">Broneeringusüsteem</span>
-            </div>
-            <div class="project-links">
-              <span class="status-indicator">
-                <span class="dot-live"></span>
-                <span data-i18n="theRandLive">Kasutuses Kristiine spordikeskuses (6 väljakut)</span>
-              </span>
-            </div>
-          </div>
-        </article>
-
-        <!-- 3. ProSystem projektide kasumlikkus -->
+        <!-- 2. ProSystem projektide kasumlikkus -->
         <article class="project-card">
           <div class="project-media">
             <video autoplay loop muted playsinline poster="assets/videos/prosystem_thumb.jpg">
@@ -234,7 +161,7 @@
           </div>
         </article>
 
-        <!-- 4. Kuku Raadio arhiiv -->
+        <!-- 3. Kuku Raadio arhiiv -->
         <article class="project-card">
           <div class="project-media">
             <video autoplay loop muted playsinline poster="assets/videos/kuku_raadio_thumb.jpg">
@@ -266,7 +193,7 @@
           </div>
         </article>
 
-        <!-- 5. Rahvusvaheline majandus -->
+        <!-- 4. Rahvusvaheline majandus -->
         <article class="project-card">
           <div class="project-media">
             <video autoplay loop muted playsinline poster="assets/videos/international_economics_thumb.jpg">
@@ -302,89 +229,6 @@
     </div>
   </section>
 
-  <!-- Background, Skills & Education -->
-  <section class="about-section" id="about">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag" data-i18n="aboutTag">Kompetentsid</span>
-        <h2 class="section-title" data-i18n="aboutTitle">Haridus ja tehnilised oskused</h2>
-      </div>
-
-      <div class="about-grid">
-        <!-- Education Card -->
-        <div class="glass-card about-card">
-          <h3 class="about-card-title">
-            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
-            <span data-i18n="eduTitle">Hariduskäik</span>
-          </h3>
-          <div class="timeline">
-            <div class="timeline-item">
-              <div class="timeline-year">2025 — ...</div>
-              <h4 data-i18n="edu1Degree">Majandusanalüüs, MA</h4>
-              <p class="timeline-place">Tallinna Tehnikaülikool (TalTech)</p>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-year">2022 — 2025</div>
-              <h4 data-i18n="edu2Degree">Majandusteadus, BA</h4>
-              <p class="timeline-place" data-i18n="edu2Place">Tartu Ülikool · Informaatika kõrvaleriala</p>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-year">2019 — 2022</div>
-              <h4 data-i18n="edu3School">Keskharidus</h4>
-              <p class="timeline-place">Tallinna 21. Kool</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Skills Card -->
-        <div class="glass-card about-card">
-          <h3 class="about-card-title">
-            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-            <span data-i18n="skillsTitle">IT- ja analüüsioskused</span>
-          </h3>
-          
-          <div class="skills-block">
-            <h5 data-i18n="skillCatProg">Programmeerimine & Andmeteadus</h5>
-            <div class="skill-tags">
-              <span class="skill-chip">Python</span>
-              <span class="skill-chip">Java</span>
-              <span class="skill-chip">SQL</span>
-              <span class="skill-chip">R</span>
-              <span class="skill-chip">HTML, CSS, JS</span>
-              <span class="skill-chip highlight">DaVinci Resolve</span>
-            </div>
-          </div>
-
-          <div class="skills-block">
-            <h5 data-i18n="skillCatEcon">Ökonomeetria & Ärianalüütika</h5>
-            <div class="skill-tags">
-              <span class="skill-chip">Stata</span>
-              <span class="skill-chip">EViews</span>
-              <span class="skill-chip">Gretl</span>
-              <span class="skill-chip">Power BI</span>
-              <span class="skill-chip">Excel</span>
-            </div>
-          </div>
-
-          <div class="skills-block">
-            <h5 data-i18n="skillCatTools">Tööriistad & Inseneeria</h5>
-            <div class="skill-tags">
-              <span class="skill-chip">Git & GitHub</span>
-              <span class="skill-chip">Bitbucket, Jira, Confluence</span>
-              <span class="skill-chip">CAD</span>
-              <span class="skill-chip">IoT Automaatika</span>
-            </div>
-          </div>
-
-          <div class="skills-block">
-            <h5 data-i18n="skillCatLang">Keeled</h5>
-            <p class="lang-text" data-i18n="langList">Eesti keel (emakeel) · Inglise keel (CAE B2) · Vene keel (B1) · Hispaania keel (A2)</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Contact Footer -->
   <footer class="site-footer" id="contact">
     <div class="container footer-container">
@@ -401,20 +245,12 @@
             <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
             <span>+372 52 60 425</span>
           </a>
-          <span class="contact-link">
-            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-            <span>Viimsi vald, Harjumaa / Tallinn</span>
-          </span>
         </div>
       </div>
 
       <div class="footer-right">
         <div class="footer-buttons">
-          <button type="button" class="btn btn-outline" onclick="openCvModal()">
-            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
-            <span data-i18n="footerViewCv">Vaata ametlikku CV-d</span>
-          </button>
-          <a href="https://github.com/mssaar" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+          <a href="https://github.com/mssaar" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
             <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
             <span>GitHub @mssaar</span>
           </a>
