@@ -6,6 +6,10 @@
   <meta name="description" content="Mark Sverker Saar — Majandusanalüüs, andmeteadus ja tarkvaraarendus. Portfoolio ja projektid.">
   <title>Mark Sverker Saar | Portfoolio & CV</title>
   
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="alternate icon" type="image/png" href="assets/favicon.png">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -51,7 +55,7 @@
         </div>
         
         <h1 class="hero-title">
-          <span data-i18n="heroGreeting">Tere, mina olen</span><br>
+          <span data-i18n="heroGreeting">Olen</span><br>
           <span class="gradient-text">Mark Sverker Saar</span>
         </h1>
 
@@ -222,7 +226,39 @@
           </div>
         </article>
 
-        <!-- 5. ProSystem projektide kasumlikkus -->
+        <!-- 5. Markowitz portfelli optimeerimine -->
+        <article class="project-card">
+          <div class="project-media">
+            <video autoplay loop muted playsinline poster="assets/videos/markowitz_portfolio_thumb.jpg">
+              <source src="assets/videos/markowitz_portfolio.webm" type="video/webm">
+              <source src="assets/videos/markowitz_portfolio.mp4" type="video/mp4">
+            </video>
+            <div class="media-overlay">
+              <span class="badge badge-public" data-i18n="badgePublic">Avatud lähtekood</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title" data-i18n="pMarkowitzTitle">Markowitz — Portfelli optimeerimise mudel</h3>
+            <p class="project-desc" data-i18n="pMarkowitzDesc">
+              Java rakendus, mis kogub Yahoo Finance'ist aktsiahindu, arvutab tulumäärade kovariatsioonimaatriksi ning optimeerib investeerimisportfelli Markowitzi mudeli järgi.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-pill">Java</span>
+              <span class="tech-pill">Finantsökonomeetria</span>
+              <span class="tech-pill">Yahoo Finance</span>
+              <span class="tech-pill">Var-Covar Matrix</span>
+              <span class="tech-pill">Portfelli optimeerimine</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/mssaar/Markowitz-Portfolio" target="_blank" rel="noopener noreferrer" class="card-btn card-btn-primary">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>GitHub Repo</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. ProSystem projektide kasumlikkus -->
         <article class="project-card">
           <div class="project-media">
             <video autoplay loop muted playsinline poster="assets/videos/prosystem_thumb.jpg">
@@ -258,7 +294,7 @@
           </div>
         </article>
 
-        <!-- 6. Kuku Raadio arhiiv -->
+        <!-- 7. Kuku Raadio arhiiv & otse-eeter -->
         <article class="project-card">
           <div class="project-media">
             <video autoplay loop muted playsinline poster="assets/videos/kuku_raadio_thumb.jpg">
@@ -270,16 +306,16 @@
             </div>
           </div>
           <div class="project-body">
-            <h3 class="project-title" data-i18n="p4Title">Kuku Raadio — Arhiiv ja veebipleier</h3>
+            <h3 class="project-title" data-i18n="p4Title">Kuku Raadio — Arhiiv, otse-eeter ja pleier</h3>
             <p class="project-desc" data-i18n="p4Desc">
-              Isiklik järelkuulamise veebiäpp, mis kontrollib ja salvestab uusi saateid automaatselt taustal GitHub Actionsi abil.
+              Kuku raadio veebipleier otse-eetri kuulamisega, mis eemaldab taskuhäälingute episoodidest automaatselt reklaamid ja laadib GitHub Actions cronjob'iga alla uusi saateid.
             </p>
             <div class="tech-stack">
-              <span class="tech-pill">JavaScript</span>
               <span class="tech-pill">Python</span>
-              <span class="tech-pill">GitHub Actions</span>
+              <span class="tech-pill">GitHub Actions Cron</span>
+              <span class="tech-pill">Otse-eeter</span>
+              <span class="tech-pill">Reklaamide eemaldamine</span>
               <span class="tech-pill">Audio Streaming</span>
-              <span class="tech-pill">PWA</span>
             </div>
             <div class="project-links">
               <a href="https://github.com/mssaar/kuku-raadio" target="_blank" rel="noopener noreferrer" class="card-btn card-btn-primary">
@@ -290,31 +326,31 @@
           </div>
         </article>
 
-        <!-- 7. Rahvusvaheline majandus -->
+        <!-- 8. Autom-sots.meedia -->
         <article class="project-card">
           <div class="project-media">
-            <video autoplay loop muted playsinline poster="assets/videos/international_economics_thumb.jpg">
-              <source src="assets/videos/international_economics.webm" type="video/webm">
-              <source src="assets/videos/international_economics.mp4" type="video/mp4">
+            <video autoplay loop muted playsinline poster="assets/videos/autom_sots_thumb.jpg">
+              <source src="assets/videos/autom_sots.webm" type="video/webm">
+              <source src="assets/videos/autom_sots.mp4" type="video/mp4">
             </video>
             <div class="media-overlay">
               <span class="badge badge-public" data-i18n="badgePublic">Avatud lähtekood</span>
             </div>
           </div>
           <div class="project-body">
-            <h3 class="project-title" data-i18n="p5Title">Rahvusvahelise majanduse õppekeskkond</h3>
-            <p class="project-desc" data-i18n="p5Desc">
-              Interaktiivne veebikeskkond majandusteaduse teooriate omandamiseks läbi 3D kordamiskaartide, kiirtestide ja otsingusüsteemi.
+            <h3 class="project-title" data-i18n="pAutomSotsTitle">Sotsiaalmeedia automatiseerimise töövoog</h3>
+            <p class="project-desc" data-i18n="pAutomSotsDesc">
+              Mitmeplatvormiline sotsiaalmeedia postituste ajastamise, formaatide kohandamise ja automaatse avaldamise töövoog.
             </p>
             <div class="tech-stack">
-              <span class="tech-pill">HTML5</span>
-              <span class="tech-pill">CSS3 (3D Transform)</span>
-              <span class="tech-pill">JavaScript</span>
-              <span class="tech-pill">Interaktiivne Test</span>
-              <span class="tech-pill">Konspektid</span>
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">API Integratsioon</span>
+              <span class="tech-pill">Töövoo automaatika</span>
+              <span class="tech-pill">FFmpeg / Video</span>
+              <span class="tech-pill">Multi-Platform</span>
             </div>
             <div class="project-links">
-              <a href="https://github.com/mssaar/International-Economics" target="_blank" rel="noopener noreferrer" class="card-btn card-btn-primary">
+              <a href="https://github.com/mssaar/Autom-sots.meedia" target="_blank" rel="noopener noreferrer" class="card-btn card-btn-primary">
                 <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                 <span>GitHub Repo</span>
               </a>

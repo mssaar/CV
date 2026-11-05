@@ -10,7 +10,7 @@ const translations = {
     navContact: "Kontakt",
     
     heroStatus: "TalTech MA Majandusanalüüs · TÜ Majandusteadus (informaatika kõrvaleriala)",
-    heroGreeting: "Tere, mina olen",
+    heroGreeting: "Olen",
     
     kw1: "Majandusanalüüs & finantsökonomeetria",
     kw2: "Tarkvaraarendus (Python, Java, JavaScript, SQL)",
@@ -41,14 +41,17 @@ const translations = {
     p1Title: "Kinnisvara üüritootlus & hinnamudel",
     p1Desc: "KV.ee korterikuulutuste automaatne andmekorje ja ökonomeetriline mudel, mis arvutab asumipõhist üüritootlust ning tuvastab alahinnatud kortereid.",
 
+    pMarkowitzTitle: "Markowitz — Portfelli optimeerimise mudel",
+    pMarkowitzDesc: "Java rakendus, mis kogub Yahoo Finance'ist aktsiahindu, arvutab tulumäärade kovariatsioonimaatriksi ning optimeerib investeerimisportfelli Markowitzi mudeli järgi.",
+
     p3Title: "ProSystem — Projektide kasumlikkuse kalkulaator",
     p3Desc: "Brauseripõhine finantstööriist ettevõtte objektide tegeliku kasumlikkuse arvutamiseks tööaja- ja kuluaruannete põhjal ilma andmeid serverisse saatmata.",
 
-    p4Title: "Kuku Raadio — Arhiiv ja veebipleier",
-    p4Desc: "Isiklik järelkuulamise veebiäpp, mis kontrollib ja salvestab uusi saateid automaatselt taustal GitHub Actionsi abil.",
+    p4Title: "Kuku Raadio — Arhiiv, otse-eeter ja pleier",
+    p4Desc: "Kuku raadio veebipleier otse-eetri kuulamisega, mis eemaldab taskuhäälingute episoodidest automaatselt reklaamid ja laadib GitHub Actions cronjob'iga alla uusi saateid.",
 
-    p5Title: "Rahvusvahelise majanduse õppekeskkond",
-    p5Desc: "Interaktiivne veebikeskkond majandusteaduse teooriate omandamiseks läbi 3D kordamiskaartide, kiirtestide ja otsingusüsteemi.",
+    pAutomSotsTitle: "Sotsiaalmeedia automatiseerimise töövoog",
+    pAutomSotsDesc: "Mitmeplatvormiline sotsiaalmeedia postituste ajastamise, formaatide kohandamise ja automaatse avaldamise töövoog.",
 
     footerHeading: "Võta ühendust",
     footerSub: "Olen alati avatud põnevatele projektidele, analüütika väljakutsetele ja koostööpakkumistele.",
@@ -62,7 +65,7 @@ const translations = {
     navContact: "Contact",
 
     heroStatus: "TalTech MA Economic Analysis · UT Economics (Minor in Computer Science)",
-    heroGreeting: "Hi, I am",
+    heroGreeting: "I am",
 
     kw1: "Economic Analysis & Financial Econometrics",
     kw2: "Software Development (Python, Java, JavaScript, SQL)",
@@ -93,14 +96,17 @@ const translations = {
     p1Title: "Real Estate Rental Yield & Pricing Model",
     p1Desc: "Automated real estate scraper and econometric model analyzing district rental yields and identifying undervalued listings in Tallinn.",
 
+    pMarkowitzTitle: "Markowitz — Portfolio Optimization Model",
+    pMarkowitzDesc: "Java application fetching Yahoo Finance market data, computing return variance-covariance matrices, and optimizing investment asset allocation.",
+
     p3Title: "ProSystem — Project Profitability Calculator",
     p3Desc: "Client-side financial calculator assessing project profitability by automatically mapping labor and cost reports without external servers.",
 
-    p4Title: "Kuku Radio — Archive & Web Player",
-    p4Desc: "Personal radio broadcast archiving web player with automated episode monitoring and downloads via GitHub Actions.",
+    p4Title: "Kuku Radio — Archive, Live Stream & Player",
+    p4Desc: "Kuku radio web player featuring live stream playback, automated podcast audio ad removal, and scheduled GitHub Actions cronjob downloads.",
 
-    p5Title: "International Economics Interactive Study Platform",
-    p5Desc: "Interactive study platform for international economics featuring 3D digital flashcards, quizzes, and searchable lecture synopses.",
+    pAutomSotsTitle: "Automated Social Media Pipeline",
+    pAutomSotsDesc: "Multi-platform workflow automating post scheduling, vertical format adaptation, and cross-channel publishing queues.",
 
     footerHeading: "Get in Touch",
     footerSub: "Always open to ambitious analytical projects, technical opportunities, and collaboration.",
